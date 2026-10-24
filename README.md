@@ -15,13 +15,26 @@ This project uses PostgreSQL to analyze an online bookstore database containing 
 - **Orders:** Order dates, books purchased, quantities, and total amounts.
 
 ## Analysis Performed
-- Filter books by genre and publication year.
-- Analyze customers by country.
-- Calculate total inventory and revenue.
-- Identify the most expensive book and lowest-stock book.
-- Calculate books sold by genre and average genre price.
-- Identify repeat customers and frequently ordered books.
-- Analyze customer spending and remaining inventory.
+- Retrieve books in the Fiction genre.
+- Find books published after 1950.
+- List customers from Canada.
+- Show orders placed in November 2023.
+- Calculate the total stock of available books.
+- Identify the most expensive book.
+- Find customers who ordered more than one copy of a book.
+- Retrieve orders with a total amount exceeding $20.
+- List all available book genres.
+- Identify the book with the lowest stock.
+- Calculate total revenue generated from orders.
+- Calculate the total number of books sold for each genre.
+- Find the average price of books in the Fantasy genre.
+- Identify customers who have placed at least two orders.
+- Find the most frequently ordered book.
+- Retrieve the three most expensive books in the Fantasy genre.
+- Calculate the total quantity of books sold by each author.
+- Identify cities where customers who spent over $30 are located.
+- Find the customer who spent the most on orders.
+- Calculate the remaining stock after fulfilling orders.
 
 ## Project Structure
 ```text
