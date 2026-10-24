@@ -62,6 +62,23 @@ postgresql-online-bookstore-analysis/
 - GROUP BY and HAVING
 - Revenue, customer, and inventory analysis
 
+  ## Advanced SQL Query Results
+
+### 1. Author Sales Analysis
+Analyzes the total quantity of books sold by each author using JOINs and aggregation.
+
+![Author Sales Analysis](screenshots/author-sales-analysis.png)
+
+### 2. Top Spending Customer
+Identifies the highest-spending customer using aggregated sales data and ranking.
+
+![Top Spending Customer](screenshots/top-spending-customer.png)
+
+### 3. Remaining Stock Analysis
+Calculates the remaining stock after fulfilling orders, including books with no matching orders.
+
+![Remaining Stock Analysis](screenshots/remaining-stock-analysis.png)
+
 ## Author
 Abhijit Kumar Shaw
 
