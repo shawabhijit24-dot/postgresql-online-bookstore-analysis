@@ -1,0 +1,27 @@
+# PostgreSQL
+*.dump
+*.backup
+*.sql.bak
+
+# Environment and credentials
+.env
+*.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/
+venv/
