@@ -110,8 +110,8 @@ group by o.book_id,b.title order by order_count desc limit 1;
 select * from books where genre='Fantasy' order by price desc limit 3;
 
 -- Retrieve the total quantity of books sold by each author
-select b.author,sum(o.quantity) as total_quantiy 
-from books b join orders o on b.book_id=o.order_id
+select b.author,sum(o.quantity) as total_quantity 
+from books b join orders o on b.book_id=o.book_id
 group by b.author;
 
 -- List the cities where customers who spent over $30 are located
